@@ -62,3 +62,11 @@
     git mv text.txt test_new.txt # переименовать файл «text.txt» в «test_new.txt» и проиндексировать это изменение
     git mv readme_new.md folder/ # переместить файл readme_new.md в директорию folder/ (должна существовать) и проиндексировать это изменение
 
+## Подключение к репозиторию Github
+
+Для подключения репозитория на Github и его синхронизации с текущим, наберите следующие комманды
+>
+
+    git remote add origin <адрес каталога>  в данном случае адрес каталога git@github.com:mSkycraft/git-tutorial.git
+    git branch -M main
+    git push -u origin main
